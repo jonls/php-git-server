@@ -1,0 +1,9 @@
+<?php
+
+/* Base url of this app */
+$url_base = '/php-git-server';
+
+/* Repositories */
+$repos = array(
+    array('/php-git-server.git', '.git'),
+    array('/wiki.git', '/home/jon/Wiki/.git'));
