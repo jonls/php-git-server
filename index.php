@@ -1,8 +1,12 @@
 <?php
+
 require('config.php');
 
 $url_path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
+
+/* The following code has been ported from Git source <http://git-scm.com>
+   by Jon Lund Steffensen, July 2011. Licenced under GPL2. */
 
 function str_endswith($s, $test) {
     $strlen = strlen($s);
